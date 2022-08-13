@@ -233,7 +233,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==6.3.0b0
     # via
     #   jupyter-server
     #   notebook
