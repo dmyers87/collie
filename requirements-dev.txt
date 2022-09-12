@@ -267,7 +267,7 @@ numpy==1.21.0
     #   tables
     #   tensorboard
     #   torchmetrics
-oauthlib==3.1.1
+oauthlib==3.2.1
     # via
     #   -c requirements.txt
     #   requests-oauthlib
