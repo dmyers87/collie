@@ -73,7 +73,7 @@ packaging==21.0
     #   torchmetrics
 pandas==1.2.5
     # via collie (setup.py)
-protobuf==3.17.3
+protobuf==3.18.3
     # via tensorboard
 pyasn1-modules==0.2.8
     # via google-auth
