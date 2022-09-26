@@ -166,7 +166,7 @@ jinja2==3.0.1
     #   nbconvert
     #   notebook
     #   sphinx
-joblib==1.0.1
+joblib==1.2.0
     # via
     #   -c requirements.txt
     #   collie
