@@ -6,7 +6,7 @@
 #
 absl-py==0.13.0
     # via tensorboard
-aiohttp==3.7.4.post0
+aiohttp==3.8.0.post0
     # via fsspec
 async-timeout==3.0.1
     # via aiohttp
@@ -54,7 +54,7 @@ multidict==5.1.0
     #   yarl
 numexpr==2.7.3
     # via tables
-numpy==1.21.0
+numpy==1.22.2
     # via
     #   collie (setup.py)
     #   numexpr
