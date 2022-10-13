@@ -10,7 +10,7 @@ absl-py==0.13.0
     # via
     #   -c requirements.txt
     #   tensorboard
-aiohttp==3.7.4.post0
+aiohttp==3.8.0.post0
     # via
     #   -c requirements.txt
     #   fsspec
@@ -295,7 +295,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==8.3.1
+pillow==9.0.1
     # via matplotlib
 pip-tools==6.2.0
     # via collie
