@@ -183,7 +183,7 @@ jupyter-client==6.1.12
     #   jupyter-server
     #   nbclient
     #   notebook
-jupyter-core==4.7.1
+jupyter-core==4.11.2
     # via
     #   jupyter-client
     #   jupyter-server
@@ -191,7 +191,7 @@ jupyter-core==4.7.1
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.8.0
+jupyter-server==1.17.1
     # via
     #   jupyterlab
     #   jupyterlab-server
@@ -220,7 +220,7 @@ matplotlib==3.4.2
     # via collie
 mccabe==0.6.1
     # via flake8
-mistune==0.8.4
+mistune==2.0.3
     # via
     #   m2r2
     #   nbconvert
@@ -233,7 +233,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==6.3.0b0
     # via
     #   jupyter-server
     #   notebook
