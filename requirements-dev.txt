@@ -10,7 +10,7 @@ absl-py==0.13.0
     # via
     #   -c requirements.txt
     #   tensorboard
-aiohttp==3.7.4.post0
+aiohttp==3.8.0.post0
     # via
     #   -c requirements.txt
     #   fsspec
@@ -544,7 +544,7 @@ werkzeug==2.0.1
     # via
     #   -c requirements.txt
     #   tensorboard
-wheel==0.36.2
+wheel==0.38.0
     # via
     #   -c requirements.txt
     #   pip-tools
