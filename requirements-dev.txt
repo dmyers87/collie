@@ -148,7 +148,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.24.1
+ipython==7.31.1
     # via
     #   collie
     #   ipykernel
@@ -183,7 +183,7 @@ jupyter-client==6.1.12
     #   jupyter-server
     #   nbclient
     #   notebook
-jupyter-core==4.7.1
+jupyter-core==4.11.2
     # via
     #   jupyter-client
     #   jupyter-server
@@ -191,7 +191,7 @@ jupyter-core==4.7.1
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.8.0
+jupyter-server==1.17.1
     # via
     #   jupyterlab
     #   jupyterlab-server
@@ -202,7 +202,7 @@ jupyterlab-server==2.6.0
     # via jupyterlab
 jupyterlab-widgets==1.0.0
     # via ipywidgets
-jupyterlab==3.0.16
+jupyterlab==3.0.17
     # via collie
 kiwisolver==1.3.1
     # via matplotlib
@@ -220,7 +220,7 @@ matplotlib==3.4.2
     # via collie
 mccabe==0.6.1
     # via flake8
-mistune==0.8.4
+mistune==2.0.3
     # via
     #   m2r2
     #   nbconvert
@@ -233,7 +233,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==6.3.0b0
     # via
     #   jupyter-server
     #   notebook
@@ -246,7 +246,7 @@ nbformat==5.1.3
     #   notebook
 nest-asyncio==1.5.1
     # via nbclient
-notebook==6.4.0
+notebook==6.4.12
     # via
     #   nbclassic
     #   widgetsnbextension
@@ -254,7 +254,7 @@ numexpr==2.7.3
     # via
     #   -c requirements.txt
     #   tables
-numpy==1.21.0
+numpy==1.22.2
     # via
     #   -c requirements.txt
     #   collie
