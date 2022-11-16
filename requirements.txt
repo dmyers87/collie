@@ -54,7 +54,7 @@ multidict==5.1.0
     #   yarl
 numexpr==2.7.3
     # via tables
-numpy==1.21.0
+numpy==1.22.2
     # via
     #   collie (setup.py)
     #   numexpr
