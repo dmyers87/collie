@@ -544,7 +544,7 @@ werkzeug==2.0.1
     # via
     #   -c requirements.txt
     #   tensorboard
-wheel==0.36.2
+wheel==0.38.0
     # via
     #   -c requirements.txt
     #   pip-tools
@@ -566,3 +566,4 @@ zipp==3.5.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
