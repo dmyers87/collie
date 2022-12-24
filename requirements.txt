@@ -148,7 +148,7 @@ urllib3==1.26.5
     # via requests
 werkzeug==2.0.1
     # via tensorboard
-wheel==0.36.2
+wheel==0.38.0
     # via tensorboard
 yarl==1.6.3
     # via aiohttp
