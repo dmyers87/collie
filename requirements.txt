@@ -26,7 +26,7 @@ fire==0.4.0
     # via collie (setup.py)
 fsspec[http]==2021.5.0
     # via pytorch-lightning
-future==0.18.2
+future==0.18.3
     # via pytorch-lightning
 google-auth-oauthlib==0.4.4
     # via tensorboard
