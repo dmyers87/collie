@@ -540,7 +540,7 @@ webencodings==0.5.1
     # via bleach
 websocket-client==1.1.0
     # via jupyter-server
-werkzeug==2.0.1
+werkzeug==2.2.3
     # via
     #   -c requirements.txt
     #   tensorboard
