@@ -95,7 +95,7 @@ pyyaml==5.4.1
     # via pytorch-lightning
 requests-oauthlib==1.3.0
     # via google-auth-oauthlib
-requests==2.26.0
+requests==2.31.0
     # via
     #   fsspec
     #   requests-oauthlib
