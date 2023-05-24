@@ -389,7 +389,7 @@ requests-oauthlib==1.3.0
     # via
     #   -c requirements.txt
     #   google-auth-oauthlib
-requests==2.26.0
+requests==2.31.0
     # via
     #   -c requirements.txt
     #   fsspec
