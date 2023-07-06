@@ -405,7 +405,7 @@ scikit-learn==0.24.2
     # via
     #   -c requirements.txt
     #   collie
-scipy==1.7.0
+scipy==1.10.0rc1
     # via
     #   -c requirements.txt
     #   scikit-learn
