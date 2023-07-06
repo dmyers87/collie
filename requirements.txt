@@ -104,7 +104,7 @@ rsa==4.7.2
     # via google-auth
 scikit-learn==0.24.2
     # via collie (setup.py)
-scipy==1.7.0
+scipy==1.10.0rc1
     # via scikit-learn
 six==1.16.0
     # via
