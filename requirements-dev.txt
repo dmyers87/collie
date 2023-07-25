@@ -50,7 +50,7 @@ cachetools==4.2.2
     # via
     #   -c requirements.txt
     #   google-auth
-certifi==2021.5.30
+certifi==2023.7.22
     # via
     #   -c requirements.txt
     #   requests
