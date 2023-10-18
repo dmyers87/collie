@@ -144,7 +144,7 @@ typing-extensions==3.10.0.0
     #   importlib-metadata
     #   torch
     #   yarl
-urllib3==1.26.5
+urllib3==1.26.18
     # via requests
 werkzeug==2.0.1
     # via tensorboard
