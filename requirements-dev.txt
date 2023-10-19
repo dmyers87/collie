@@ -530,7 +530,7 @@ typing-extensions==3.10.0.0
     #   importlib-metadata
     #   torch
     #   yarl
-urllib3==1.26.5
+urllib3==1.26.18
     # via
     #   -c requirements.txt
     #   requests
