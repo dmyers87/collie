@@ -146,7 +146,7 @@ typing-extensions==3.10.0.0
     #   yarl
 urllib3==1.26.5
     # via requests
-werkzeug==2.0.1
+werkzeug==3.0.1
     # via tensorboard
 wheel==0.36.2
     # via tensorboard
