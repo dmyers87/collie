@@ -10,13 +10,13 @@ absl-py==0.13.0
     # via
     #   -c requirements.txt
     #   tensorboard
-aiohttp==3.7.4.post0
+aiohttp==3.10.11
     # via
     #   -c requirements.txt
     #   fsspec
 alabaster==0.7.12
     # via sphinx
-anyio==3.2.0
+anyio==4.4.0
     # via jupyter-server
 appnope==0.1.2
     # via
@@ -50,7 +50,7 @@ cachetools==4.2.2
     # via
     #   -c requirements.txt
     #   google-auth
-certifi==2021.5.30
+certifi==2024.7.4
     # via
     #   -c requirements.txt
     #   requests
@@ -101,7 +101,7 @@ fsspec[http]==2021.5.0
     # via
     #   -c requirements.txt
     #   pytorch-lightning
-future==0.18.2
+future==0.18.3
     # via
     #   -c requirements.txt
     #   pytorch-lightning
@@ -114,11 +114,11 @@ google-auth==1.32.1
     #   -c requirements.txt
     #   google-auth-oauthlib
     #   tensorboard
-grpcio==1.38.1
+grpcio==1.53.2
     # via
     #   -c requirements.txt
     #   tensorboard
-idna==3.2
+idna==3.7
     # via
     #   -c requirements.txt
     #   anyio
@@ -148,7 +148,7 @@ ipython-genutils==0.2.0
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.24.1
+ipython==8.10.0
     # via
     #   collie
     #   ipykernel
@@ -158,7 +158,7 @@ ipywidgets==7.6.3
     # via collie
 jedi==0.18.0
     # via ipython
-jinja2==3.0.1
+jinja2==3.1.5
     # via
     #   jupyter-server
     #   jupyterlab
@@ -166,7 +166,7 @@ jinja2==3.0.1
     #   nbconvert
     #   notebook
     #   sphinx
-joblib==1.0.1
+joblib==1.1.1
     # via
     #   -c requirements.txt
     #   collie
@@ -183,7 +183,7 @@ jupyter-client==6.1.12
     #   jupyter-server
     #   nbclient
     #   notebook
-jupyter-core==4.7.1
+jupyter-core==4.11.2
     # via
     #   jupyter-client
     #   jupyter-server
@@ -191,7 +191,7 @@ jupyter-core==4.7.1
     #   nbconvert
     #   nbformat
     #   notebook
-jupyter-server==1.8.0
+jupyter-server==2.14.1
     # via
     #   jupyterlab
     #   jupyterlab-server
@@ -202,7 +202,7 @@ jupyterlab-server==2.6.0
     # via jupyterlab
 jupyterlab-widgets==1.0.0
     # via ipywidgets
-jupyterlab==3.0.16
+jupyterlab==3.6.8
     # via collie
 kiwisolver==1.3.1
     # via matplotlib
@@ -220,7 +220,7 @@ matplotlib==3.4.2
     # via collie
 mccabe==0.6.1
     # via flake8
-mistune==0.8.4
+mistune==2.0.3
     # via
     #   m2r2
     #   nbconvert
@@ -233,7 +233,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==6.3.0b0
     # via
     #   jupyter-server
     #   notebook
@@ -246,7 +246,7 @@ nbformat==5.1.3
     #   notebook
 nest-asyncio==1.5.1
     # via nbclient
-notebook==6.4.0
+notebook==6.4.12
     # via
     #   nbclassic
     #   widgetsnbextension
@@ -254,7 +254,7 @@ numexpr==2.7.3
     # via
     #   -c requirements.txt
     #   tables
-numpy==1.21.0
+numpy==1.22.2
     # via
     #   -c requirements.txt
     #   collie
@@ -267,7 +267,7 @@ numpy==1.21.0
     #   tables
     #   tensorboard
     #   torchmetrics
-oauthlib==3.1.1
+oauthlib==3.2.2
     # via
     #   -c requirements.txt
     #   requests-oauthlib
@@ -295,7 +295,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==8.3.1
+pillow==10.3.0
     # via matplotlib
 pip-tools==6.2.0
     # via collie
@@ -307,7 +307,7 @@ prometheus-client==0.11.0
     #   notebook
 prompt-toolkit==3.0.19
     # via ipython
-protobuf==3.17.3
+protobuf==3.18.3
     # via
     #   -c requirements.txt
     #   tensorboard
@@ -342,7 +342,7 @@ pydocstyle==3.0.0
     #   flake8-docstrings
 pyflakes==2.3.1
     # via flake8
-pygments==2.9.0
+pygments==2.15.0
     # via
     #   ipython
     #   jupyterlab-pygments
@@ -367,7 +367,7 @@ python-dateutil==2.8.1
     #   jupyter-client
     #   matplotlib
     #   pandas
-pytorch-lightning==1.3.7
+pytorch-lightning==2.4.0
     # via
     #   -c requirements.txt
     #   collie
@@ -389,7 +389,7 @@ requests-oauthlib==1.3.0
     # via
     #   -c requirements.txt
     #   google-auth-oauthlib
-requests==2.26.0
+requests==2.32.2
     # via
     #   -c requirements.txt
     #   fsspec
@@ -401,11 +401,11 @@ rsa==4.7.2
     # via
     #   -c requirements.txt
     #   google-auth
-scikit-learn==0.24.2
+scikit-learn==1.5.0
     # via
     #   -c requirements.txt
     #   collie
-scipy==1.7.0
+scipy==1.10.0rc1
     # via
     #   -c requirements.txt
     #   scikit-learn
@@ -485,7 +485,7 @@ toml==0.10.2
     #   pep517
     #   pytest
     #   pytest-cov
-torch==1.9.0
+torch==2.2.0
     # via
     #   -c requirements.txt
     #   collie
@@ -496,7 +496,7 @@ torchmetrics==0.4.1
     #   -c requirements.txt
     #   collie
     #   pytorch-lightning
-tornado==6.1
+tornado==6.4.2
     # via
     #   ipykernel
     #   jupyter-client
@@ -504,7 +504,7 @@ tornado==6.1
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.61.2
+tqdm==4.66.3
     # via
     #   -c requirements.txt
     #   collie
@@ -530,7 +530,7 @@ typing-extensions==3.10.0.0
     #   importlib-metadata
     #   torch
     #   yarl
-urllib3==1.26.5
+urllib3==1.26.19
     # via
     #   -c requirements.txt
     #   requests
@@ -540,11 +540,11 @@ webencodings==0.5.1
     # via bleach
 websocket-client==1.1.0
     # via jupyter-server
-werkzeug==2.0.1
+werkzeug==3.0.6
     # via
     #   -c requirements.txt
     #   tensorboard
-wheel==0.36.2
+wheel==0.38.0
     # via
     #   -c requirements.txt
     #   pip-tools
@@ -557,7 +557,7 @@ yarl==1.6.3
     # via
     #   -c requirements.txt
     #   aiohttp
-zipp==3.5.0
+zipp==3.19.1
     # via
     #   -c requirements.txt
     #   importlib-metadata
@@ -566,3 +566,4 @@ zipp==3.5.0
 # The following packages are considered to be unsafe in a requirements file:
 # pip
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
