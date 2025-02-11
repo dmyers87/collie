@@ -6,7 +6,7 @@
 #
 absl-py==0.13.0
     # via tensorboard
-aiohttp==3.7.4.post0
+aiohttp==3.10.11
     # via fsspec
 async-timeout==3.0.1
     # via aiohttp
@@ -14,7 +14,7 @@ attrs==21.2.0
     # via aiohttp
 cachetools==4.2.2
     # via google-auth
-certifi==2021.5.30
+certifi==2024.7.4
     # via requests
 chardet==4.0.0
     # via aiohttp
@@ -26,7 +26,7 @@ fire==0.4.0
     # via collie (setup.py)
 fsspec[http]==2021.5.0
     # via pytorch-lightning
-future==0.18.2
+future==0.18.3
     # via pytorch-lightning
 google-auth-oauthlib==0.4.4
     # via tensorboard
@@ -34,15 +34,15 @@ google-auth==1.32.1
     # via
     #   google-auth-oauthlib
     #   tensorboard
-grpcio==1.38.1
+grpcio==1.53.2
     # via tensorboard
-idna==3.2
+idna==3.7
     # via
     #   requests
     #   yarl
 importlib-metadata==4.6.1
     # via markdown
-joblib==1.0.1
+joblib==1.1.1
     # via
     #   collie (setup.py)
     #   scikit-learn
@@ -54,7 +54,7 @@ multidict==5.1.0
     #   yarl
 numexpr==2.7.3
     # via tables
-numpy==1.21.0
+numpy==1.22.2
     # via
     #   collie (setup.py)
     #   numexpr
@@ -65,7 +65,7 @@ numpy==1.21.0
     #   tables
     #   tensorboard
     #   torchmetrics
-oauthlib==3.1.1
+oauthlib==3.2.2
     # via requests-oauthlib
 packaging==21.0
     # via
@@ -73,7 +73,7 @@ packaging==21.0
     #   torchmetrics
 pandas==1.2.5
     # via collie (setup.py)
-protobuf==3.17.3
+protobuf==3.18.3
     # via tensorboard
 pyasn1-modules==0.2.8
     # via google-auth
@@ -87,7 +87,7 @@ pyparsing==2.4.7
     # via packaging
 python-dateutil==2.8.1
     # via pandas
-pytorch-lightning==1.3.7
+pytorch-lightning==2.4.0
     # via collie (setup.py)
 pytz==2021.1
     # via pandas
@@ -95,16 +95,16 @@ pyyaml==5.4.1
     # via pytorch-lightning
 requests-oauthlib==1.3.0
     # via google-auth-oauthlib
-requests==2.26.0
+requests==2.32.2
     # via
     #   fsspec
     #   requests-oauthlib
     #   tensorboard
 rsa==4.7.2
     # via google-auth
-scikit-learn==0.24.2
+scikit-learn==1.5.0
     # via collie (setup.py)
-scipy==1.7.0
+scipy==1.10.0rc1
     # via scikit-learn
 six==1.16.0
     # via
@@ -125,7 +125,7 @@ termcolor==1.1.0
     # via fire
 threadpoolctl==2.2.0
     # via scikit-learn
-torch==1.9.0
+torch==2.2.0
     # via
     #   collie (setup.py)
     #   pytorch-lightning
@@ -134,7 +134,7 @@ torchmetrics==0.4.1
     # via
     #   collie (setup.py)
     #   pytorch-lightning
-tqdm==4.61.2
+tqdm==4.66.3
     # via
     #   collie (setup.py)
     #   pytorch-lightning
@@ -144,16 +144,17 @@ typing-extensions==3.10.0.0
     #   importlib-metadata
     #   torch
     #   yarl
-urllib3==1.26.5
+urllib3==1.26.19
     # via requests
-werkzeug==2.0.1
+werkzeug==3.0.6
     # via tensorboard
-wheel==0.36.2
+wheel==0.38.0
     # via tensorboard
 yarl==1.6.3
     # via aiohttp
-zipp==3.5.0
+zipp==3.19.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
