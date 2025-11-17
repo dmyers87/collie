@@ -485,7 +485,7 @@ toml==0.10.2
     #   pep517
     #   pytest
     #   pytest-cov
-torch==1.9.0
+torch==2.9.0
     # via
     #   -c requirements.txt
     #   collie
