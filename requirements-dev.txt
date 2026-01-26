@@ -485,7 +485,7 @@ toml==0.10.2
     #   pep517
     #   pytest
     #   pytest-cov
-torch==1.9.0
+torch==2.10.0
     # via
     #   -c requirements.txt
     #   collie
@@ -544,7 +544,7 @@ werkzeug==2.0.1
     # via
     #   -c requirements.txt
     #   tensorboard
-wheel==0.36.2
+wheel==0.46.2
     # via
     #   -c requirements.txt
     #   pip-tools
