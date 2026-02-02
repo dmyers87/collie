@@ -233,7 +233,7 @@ nbclassic==0.3.1
     # via jupyterlab
 nbclient==0.5.3
     # via nbconvert
-nbconvert==6.0.7
+nbconvert==7.17.0
     # via
     #   jupyter-server
     #   notebook
@@ -307,7 +307,7 @@ prometheus-client==0.11.0
     #   notebook
 prompt-toolkit==3.0.19
     # via ipython
-protobuf==3.17.3
+protobuf==6.33.5
     # via
     #   -c requirements.txt
     #   tensorboard
@@ -485,7 +485,7 @@ toml==0.10.2
     #   pep517
     #   pytest
     #   pytest-cov
-torch==1.9.0
+torch==2.10.0
     # via
     #   -c requirements.txt
     #   collie
