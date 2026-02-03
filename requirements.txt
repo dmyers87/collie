@@ -73,7 +73,7 @@ packaging==21.0
     #   torchmetrics
 pandas==1.2.5
     # via collie (setup.py)
-protobuf==3.17.3
+protobuf==6.33.5
     # via tensorboard
 pyasn1-modules==0.2.8
     # via google-auth
@@ -125,7 +125,7 @@ termcolor==1.1.0
     # via fire
 threadpoolctl==2.2.0
     # via scikit-learn
-torch==1.9.0
+torch==2.10.0
     # via
     #   collie (setup.py)
     #   pytorch-lightning
